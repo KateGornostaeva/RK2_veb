@@ -1,5 +1,5 @@
 <div class="site_page_about">
-    <div class = "main">
+    <div class = "about_shop">
         <h1>О нас</h1>
         <a href = "<?php $name='О нас'; $link ='site_main.php'; $current_page=true; echo $link;?>">
             

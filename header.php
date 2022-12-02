@@ -12,14 +12,17 @@
 <body>
     <header id = "header">
         <p>            
-            <div id = "catalog_cat"><a href = "site_main.php">
+            <div id = "logo"><a href = "site_main.php">
                 <img class = "img_logo" src="img/logo.jpg" title="logo" alt="logo" width="70">
-                World of Games</a> 
+                <div id = "logo_name" >World of Games</div></a> 
             </div>
-            <div id = "main_search">Поиск
-            <a href = "<?php $name='Войти'; $link ='site_login.php'; $current_page=true; echo $link;?>">
-            <?php if( $current_page ) echo $name;?> <!--второе включение PHP‐кода -->
-            </a></div>
+            <div id = "main_search">Поиск 
+                Корзина 
+                <a href = "<?php $name='Войти'; $link ='site_login.php'; $current_page=true; echo $link;?>">
+                <?php if( $current_page ) echo $name;?> <!--второе включение PHP‐кода --></a>
+                <a href = "<?php $name='Регистрация'; $link ='site_reg.php'; $current_page=true; echo $link;?>"> 
+                <?php if( $current_page ) echo $name;?> <!--второе включение PHP‐кода --></a>
+            </div>
         </p>
     </header>
 </body>

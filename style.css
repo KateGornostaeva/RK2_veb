@@ -23,6 +23,14 @@ body{
     margin-right: auto;
     text-align:justify; /*выравнивание текста*/
 }
+.about_shop{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify; /*выравнивание текста*/
+    padding-top: 10px; /* Поля вокруг текста */
+    padding-bottom: 15px;
+}
 
 form{
     background-color: #bca6e2;
@@ -40,6 +48,7 @@ footer{
     position: static; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
     padding-left: 5px; /* Поля вокруг текста */
+    padding-right: 10px;
     width: 100%
 }
 
@@ -60,17 +69,16 @@ h3{
     font-size: 20px;
 }
 
-.img_table{
-    border-radius: 50%; /*закругление углов картинки*/
-}
-
 .img_logo{
     border-radius: 50%; 
     float: left;
 }
-.img_cat{
-    border-radius: 10%;
-    width: 300;
+
+.img_main{
+    text-align: center;
+    margin-top: 25px; /* Отступ сверху */
+    margin-bottom: 25px; /* Отступ снизу */
+
 }
 
 table{
@@ -78,7 +86,7 @@ table{
     margin:  1px 1px 1px 1px;
     width: 900px; /* Ширина таблицы */
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
-    border: 3px solid #fee6c4; /* Параметры рамки */
+    border: 3px solid #000000; /* Параметры рамки */
 }
 
 td, th {
@@ -86,19 +94,25 @@ td, th {
     border: 2px solid #2c263e; /* Параметры рамки */
 }
 
-#catalog_cat{
+#logo{
     font-size: 40px;
     color: #000;
 }
 
-#main_search{
-    font-size: 25px;
-    text-align: right;
-    color: #000;
+#logo_name{
+    text-align: left;
 }
 
+#main_search{
+    font-size: 30px;
+    text-align: right;
+    color: #000;
+    padding-right: 10px;
+}
+
+
 #data_footer{
-text-align: right;
+    text-align: right;
 }
 
 A{
@@ -107,7 +121,7 @@ A{
 }
 
 A:visited{
-    color: #52409c;
+    color: #2c263e;
     text-decoration: none;
 }
 
